@@ -3,6 +3,8 @@ This code simulates the "equivalence projective simulation" model that introduce
 
 **"Equivalence Projective Simulation as a Framework for Modeling Formation of Stimulus Equivalence Classes"**, Neural Computation, MIT press,
 
+Please cite the paper if you use the EPS model or the code in this repository. 
+
 EPS computationally models formation of equivalence classes in Behavior Analysis. Briefly, in an arbitrary MTS experiment, first
 some arbitrary relations say A1-B1, A2-B2, B1-C1, B2-C2, are trained through a matching-to-sample procedure. Then, after agent masters these relations, i.e. answering correctly to say 90% of the trials in a block of certain size of trials, the agent will be tested for **derived** relations, say A1-C1, C2-A2. 
 
@@ -22,7 +24,7 @@ There are two options to initialize the parameters and run the code:
 
 Through Initialization_detail.py you can add new environments settings (the detail is explained bellow). Through interface window just pre-defined experiments can be chosen. 
 
-## Without interface:
+## Without GUI:
 
 - In the **main.py** you can only choose the agent_ID:
 ```python
@@ -201,7 +203,7 @@ where 'AB' means all possible relations between the two categories say A1-B1, A2
 A value between 0 and one that shows the mastery criterion. 0.9 means 90% correct choices in a block.  
 
 
-## Using interface:
+## With GUI:
 
 - Run main_gui.py and determine the environment parameters in the first tab:
 
