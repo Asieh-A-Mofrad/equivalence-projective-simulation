@@ -8,7 +8,7 @@
 import tkinter as tk
 import tkinter.ttk as tt
 from tkinter import LEFT, TOP, X
- 
+from tkinter.filedialog import askopenfilename
 import matplotlib as ml
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg 
 import matplotlib.pyplot as plt
@@ -494,8 +494,7 @@ class EquivalenceView(tk.Tk):
             
         ax1.xaxis.label.set_size(20)
         ax1.tick_params(labelsize = 16)
-        self.fig[name].tight_layout()
-        #ax1.tight_layout()
+        #self.fig[name].tight_layout()
         self.canvas[name].draw() 
  
 # --------------------------------------------- 
@@ -505,8 +504,7 @@ class EquivalenceView(tk.Tk):
                     linewidths=.15, cmap="Blues", ax=ax1) 
         ax1.set_title(name, fontsize = 16)
         ax1.tick_params(labelsize = 16)
-        self.fig[name].tight_layout()
-        #ax1.tight_layout()
+        #self.fig[name].tight_layout()
         self.canvas[name].draw() 
     
 # if __name__ == '__main__':
