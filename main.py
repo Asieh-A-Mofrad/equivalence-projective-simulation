@@ -18,7 +18,6 @@ import initialization_detail
 import environment as env
 import agent as agn
 import interaction as intrc
-import pdb
 
 environment_detail = initialization_detail.environment_details()
 environment_parameter, agent_parameter = initialization.config()
@@ -26,7 +25,7 @@ environment_parameter, agent_parameter = initialization.config()
 #Give the file_name to just plot a previousely saved simulation
 file_name = None
 
-if file_name == None:
+if file_name is None:
     agent_types = ('positive_h', 'negative_h', 'viterbi', 'absorbing')
     agent_ID = 0
     agent_parameter[1][agent_types[agent_ID]]['agent_type'] = agent_types[agent_ID]
