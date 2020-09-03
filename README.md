@@ -1,7 +1,7 @@
 # Equivalence Projective Simulation (EPS)
-This code simulates the "equivalence projective simulation" model that introduced in the paper entitled:
+This code simulates the "equivalence projective simulation" model that introduced in the paper:
 
-**"Equivalence Projective Simulation as a Framework for Modeling Formation of Stimulus Equivalence Classes"**, Neural Computation, MIT press,
+**Mofrad, A. A., Yazidi, A., Hammer, H. L., & Arntzen, E. (2020). Equivalence Projective Simulation as a Framework for Modeling Formation of Stimulus Equivalence Classes. Neural Computation, 32(5), 912-968.**
 
 Please cite the paper if you use the EPS model or the code in this repository. 
 
